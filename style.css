@@ -1,0 +1,55 @@
+.MYCARD{
+    text-align: center;
+    margin-top: 50px;
+    box-sizing: 80px;
+  background-image:radial-gradient(rgb(172, 157, 140),rgba(132, 91, 226, 0.932));
+    border-radius: 20px;
+    width: 600px;
+    height: 600px;
+    margin-left: 20%;
+   border-style:solid;
+   border-color: rgb(20, 110, 47);
+   border-width: 1px;
+   box-shadow: 10px 10px 10px rgb(199, 122, 87);
+   text-shadow: 2px 2px 4px red;
+}
+img{
+    height: 300px;
+    border: 30px;
+    color: rgb(146, 72, 72);
+    border-radius: 20PX;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px;
+}
+P{
+    padding: 10px;
+    text-align:center;
+    font-style: oblique;
+    font-size: large;
+    text-shadow: 2px 2px 4px;
+}   
+button{
+    color: rgb(0, 0, 0);
+    border-radius: 10PX;
+    height: 40PX;
+    width: 80px;
+    background-color: rgb(206, 94, 60);
+    margin-left: 20px;
+    }
+button{
+    color: black;
+    border-radius: 10px;
+    height: 40px;
+    width:80px ;
+    box-shadow: 10px 10px 10px;
+    
+}
+.MYCARD:hover{
+    box-shadow: 0 8px 10px rgb(72, 104, 9);
+    transition: 1s;
+}
+button:hover{
+    box-shadow:0 10px 14px rgb(212, 163, 55) ;
+    background-color: rgb(243, 201, 11);
+
+}
